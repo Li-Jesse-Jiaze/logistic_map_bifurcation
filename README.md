@@ -29,8 +29,8 @@ x_3=r x_2(1-x_2) \\
 \vdots \\
 x_n=r x_{n-1}(1-x_{n-1}) \\
 x_1=r x_n(1-x_n) \\
-r^n \prod_{k=1}^n(1-2 x_k)=1 .
-\end{array}.
+r^n \prod_{k=1}^n(1-2 x_k)=1
+\end{array}
 $$
 
 ## Result
