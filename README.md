@@ -24,12 +24,12 @@ Solve the following system of equations using Newton's method to find the onset 
 
 $$
 \left\{\begin{array}{l}
-x_2=r x_1 (1-x_1) \\
-x_3=r x_2 (1-x_2) \\
+x_2=r x_1\left(1-x_1\right) \\
+x_3=r x_2\left(1-x_2\right) \\
 \vdots \\
-x_n=r x_{n-1}(1-x_{n-1}) \\
-x_1=r x_n (1-x_n) \\
-r^n \prod_{k=1}^n (1-2 x_k)=1 .
+x_n=r x_{n-1}\left(1-x_{n-1}\right) \\
+x_1=r x_n\left(1-x_n\right) \\
+r^n \prod_{k=1}^n\left(1-2 x_k\right)=1 .
 \end{array}\right.
 $$
 
