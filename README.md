@@ -21,18 +21,21 @@ High-precision bifurcation analysis using Newton's method.
 ## Method
 
 Solve the following system of equations using Newton's method to find the onset of the $n$-cycle. Look at [Logistic Map -- from Wolfram MathWorld](https://mathworld.wolfram.com/LogisticMap.html)
+
 $$
 \left\{\begin{array}{l}
-x_2=r x_1\left(1-x_1\right) \\
-x_3=r x_2\left(1-x_2\right) \\
+x_2=r x_1 (1-x_1) \\
+x_3=r x_2 (1-x_2) \\
 \vdots \\
-x_n=r x_{n-1}\left(1-x_{n-1}\right) \\
-x_1=r x_n\left(1-x_n\right) \\
-r^n \prod_{k=1}^n\left(1-2 x_k\right)=1 .
+x_n=r x_{n-1}(1-x_{n-1}) \\
+x_1=r x_n (1-x_n) \\
+r^n \prod_{k=1}^n (1-2 x_k)=1 .
 \end{array}\right.
 $$
 
 ## Result
+
+![output](./images/output.png)
 
 | Order   | r_order                                                      |
 | ------- | ------------------------------------------------------------ |
